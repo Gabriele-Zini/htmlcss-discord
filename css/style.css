@@ -1,0 +1,227 @@
+/* RESET */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    align-items: center;
+    /* debug variable */
+    min-height:6.25rem;
+}
+
+.dashed-black-border {
+    /* debug variable */
+    border: 3px dashed black;
+}
+
+/* HEADER */
+
+header {
+    background-color: lightskyblue;
+    
+}
+
+.navbar {
+    display: flex;
+    min-height: 3.125rem;
+    background-color: orange;
+
+
+}
+
+.nav-item {
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+.logo {
+    width: calc(100% / 4);
+    text-align: left;
+    padding-left: 20px;
+
+
+
+}
+
+.menu {
+    flex-grow: 1;
+
+}
+
+.list-menu {
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+
+
+.login {
+    width: calc(100% / 4);
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+.hero {
+    padding:50px;
+    align-items: center;
+    justify-content: center;
+    /* debug variable */
+    background-color: blue;  
+    
+}
+
+
+.hero-content {
+    width:60%;
+    /* debug variable */
+    min-height:300px ;
+    background-color: pink;
+}
+/* MAIN */
+
+/* sections */
+.section {
+    padding:50px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.gray-div {
+    /* debug variabel */
+    background-color: lightgrey;
+
+}
+
+
+.azure-div {
+    width:60%;
+    /* debug variable */
+    min-height:400px;
+    background-color: lightblue;
+    
+
+}
+
+.pink-div{
+    width: 40%;
+    /* debug variable */
+    min-height: 400px;
+    background-color: pink;
+}
+ /* /sections */
+
+
+ /* main-content */
+
+
+ .main-box {
+    width:100%;
+    /* debug variable */
+    min-height: 600px;
+    background-color: green;
+   
+
+ }
+
+ /* /main-content */
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(40, 37, 37);
+  
+}
+
+.first-footer-section {
+    padding:10px 0 40px 0;
+    border-bottom:2px solid white
+    
+}
+
+
+.footer-div {
+    /* debug variable */
+    min-height: 400px;
+    
+}
+
+.big {
+    background-color: pink;
+    width: calc((100% / 6)*2);
+    
+
+
+}
+
+.small {
+    width: calc(100% / 6);
+    background-color: aquamarine;
+    border: 3px dashed white;
+}
+
+.second-footer-section{
+    padding:40px 0 0 0;
+
+}
+
+.footer-div-bottom {
+    background-color: aquamarine;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* debug variable */
+    height: 80px;
+}
+
+.footer-logo {
+    background-color: lightcoral;
+    font-size: 1.5rem;
+    padding: 5px;
+    /* debug variable */
+    border: 2px dashed black;
+
+}
+
+.btn {
+    background-color: lightcoral;
+    font-size: 1.5rem;
+    padding: 5px;
+    /* debug variable */
+    border: 2px dashed black;
+}
