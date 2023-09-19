@@ -58,7 +58,6 @@ header {
 }
 
 .nav-item {
-    /* line-height: 50px; */
     font-size: 0.7rem;
 
 }
@@ -159,42 +158,72 @@ header {
 
 
 
-.gray-div {
+.gray-section {
     /* debug variabel */
-    background-color: lightgrey;
+    background-color: rgb(246 246 246);
 
 }
 
 
-.azure-div {
+.big-col {
     width:60%;
-    /* debug variable */
-    min-height:400px;
-    background-color: lightblue;
-    
-
 }
 
-.pink-div{
-    width: 40%;
-    /* debug variable */
-    min-height: 400px;
-    background-color: pink;
+.small-col{
+    width: 30%;
 }
  /* /sections */
 
+ .small-col h3 {
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+ }
+
+.small-col p {
+    line-height: 1.2rem;
+    font-size: 0.7rem;
+}
 
  /* main-content */
 
+.last-section {
+    padding-top: 40px;
+}
 
- .main-box {
-    width:100%;
-    /* debug variable */
-    min-height: 600px;
-    background-color: green;
-   
+ .last-section h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+   }
+  
+  .last-section p {
+      line-height: 1.2rem;
+      font-size: 0.7rem;
+  }
 
- }
+
+  .bottom-div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom:50px;
+    padding-top:30px;
+    background-image: url(/img/stars.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+
+  .bottom-div a {
+    background-color: rgb(114 137 218 );
+    color: white;
+    margin-top: 30px;
+  }
+
 
  /* /main-content */
 
