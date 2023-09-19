@@ -121,7 +121,7 @@ header {
     padding:50px;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size:cover;
     background-repeat:no-repeat;
     color: white;
@@ -225,7 +225,7 @@ header {
     flex-direction: column;
     padding-bottom:50px;
     padding-top:30px;
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-size:contain;
     background-repeat: no-repeat;
     width: 40%;
