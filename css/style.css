@@ -12,6 +12,10 @@ img {
 
 /* COMMON */
 
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -30,13 +34,14 @@ ul {
 
 li a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font: inherit;
 }
 
 .wrapper {
     align-items: center;
     /* debug variable */
-    min-height:6.25rem;
+    min-height:5rem;
 }
 
 /* HEADER */
@@ -49,40 +54,52 @@ header {
 .navbar {
     display: flex;
     min-height: 3.125rem;
+    color: white;
 }
 
 .nav-item {
-    line-height: 50px;
-    font-size: 1.5rem;
+    /* line-height: 50px; */
+    font-size: 0.7rem;
+
 }
 
 .logo {
     width: calc(100% / 4);
-    text-align: left;
-    padding-left: 20px;
-
-
-
+    align-items: flex-start;
+    
 }
 
-.menu {
-    flex-grow: 1;
+ .logo-nav-item {
+    align-items: center;
+ }
 
+ .logo-img {
+    width:7rem;
+ }
+
+.menu {
+    width: calc(100% / 2);
 }
 
 .list-menu {
-    gap: 10px;
-    justify-content: center;
+    gap:10px;
+    justify-content:center;
+    margin-top:10px;
+    
 }
-
-
-
-
 
 .login {
     width: calc(100% / 4);
     text-align: right;
-    padding-right: 20px;
+}
+
+.login a {
+    display: inline-block;
+    border-radius: 12px;
+    background-color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.7rem;
 }
 
 
@@ -90,16 +107,46 @@ header {
     padding:50px;
     align-items: center;
     justify-content: center;
-    /* debug variable */
-    background-color: blue;  
-    
+    background-image: url(/img/jumbo.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    color: white;
+    text-align: center;
 }
 
 
 .hero-content {
     width:60%;
-    /* debug variable */
-    min-height:300px ;
+ 
+}
+
+.hero-title {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.hero-paragraph {
+    line-height: 1.2rem;
+    font-size: 0.7rem;
+}
+
+.anchor {
+    display: inline-block;
+    border-radius: 15px;
+    text-decoration: none;
+    padding:8px 12px;
+    font-size: 0.8rem;
+    margin: 0.4rem;
+
+}
+
+.download-mac {
+    background-color: white;
+}
+
+.download-windows {
+    background-color: rgb(35 39 42);
+    color: white;
 }
 /* MAIN */
 
