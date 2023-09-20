@@ -73,7 +73,7 @@ header {
 }
 
 .nav-item {
-    font-size: 0.7rem;
+    font-size: 1rem;
 
 }
 
@@ -113,7 +113,7 @@ header {
     background-color: white;
     text-decoration: none;
     padding: 5px;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 
@@ -126,11 +126,13 @@ header {
     background-repeat:no-repeat;
     color: white;
     text-align: center;
+    min-height: 600px;
 }
 
 
 .hero-content {
     width:60%;
+    
  
 }
 
@@ -140,8 +142,8 @@ header {
 }
 
 .hero-paragraph {
-    line-height: 1.2rem;
-    font-size: 0.7rem;
+    line-height: 2rem;
+    font-size: 1.1rem;
 }
 
 .anchor {
@@ -149,8 +151,9 @@ header {
     border-radius: 15px;
     text-decoration: none;
     padding:8px 12px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0.4rem;
+    margin-top: 20px;
 
 }
 
@@ -166,7 +169,7 @@ header {
 
 /* sections */
 .section {
-    padding-top:80px;
+    padding-top:160px;
     padding-bottom:50px;
     justify-content: center;
     align-items: center;
@@ -176,8 +179,6 @@ header {
 
 .gray-section {
     background-color: rgb(246 246 246);
-    padding-top: 50px;
-
 }
 
 
@@ -191,14 +192,15 @@ header {
  /* /sections */
 
  .small-col h3 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-align: left;
   margin-bottom: 1.5rem;
+  line-height: 1.5;
  }
 
 .small-col p {
-    line-height: 1.2rem;
-    font-size: 0.7rem;
+    line-height: 1.8rem;
+    font-size: 1rem;
 }
 
  /* main-content */
@@ -208,14 +210,14 @@ header {
 }
 
  .last-section h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-align: center;
     margin-bottom: 1.5rem;
    }
   
   .last-section p {
-      line-height: 1.2rem;
-      font-size: 0.7rem;
+      line-height: 1.8rem;
+      font-size: 1rem;
       margin:0 50px
   }
 
@@ -233,6 +235,11 @@ header {
     text-align: center;
 
   }
+
+.bottom-div p {
+    font-size: 2rem;;
+
+}
 
 
   .bottom-div a {
@@ -273,8 +280,8 @@ footer {
 
 .big h4 {
     color: hsl(226.73deg 58.43% 65.1%);
-    font-size: 1.4rem;
-    margin-bottom: 0.625rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -284,7 +291,7 @@ footer {
 }
 
 .big span {
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .icons i {
@@ -298,8 +305,8 @@ footer {
 .small {
     width: calc(100% / 6);
     padding-top: 60px;
-    font-size: 0.7rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 2.8rem;
     padding-left:40px
 }
 
