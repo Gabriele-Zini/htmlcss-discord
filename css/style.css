@@ -70,6 +70,7 @@ header {
     display: flex;
     min-height: 3.125rem;
     color: white;
+    align-items: center;
 }
 
 .nav-item {
@@ -98,7 +99,6 @@ header {
 .list-menu {
     gap:25px;
     justify-content:center;
-    margin-top:10px;
     
 }
 
