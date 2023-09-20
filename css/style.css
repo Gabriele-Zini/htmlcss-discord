@@ -207,21 +207,25 @@ header {
  /* main-content */
 
 .last-section {
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
  .last-section h3 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1.5rem;
+    padding-left:10px;
+    padding-right: 80px;
    }
   
   .last-section p {
       line-height: 1.8rem;
       font-size: 1rem;
-      margin:0 50px
+      padding-left:20px;
+      padding-right: 150px;
   }
 
+  
 
   .bottom-div {
     display: flex;
@@ -234,14 +238,11 @@ header {
     width: 40%;
     margin: 0 auto;
     text-align: center;
-
   }
 
 .bottom-div p {
-    font-size: 2rem;;
-
+    font-size: 2rem;
 }
-
 
   .bottom-div a {
     background-color: rgb(114 137 218 );
