@@ -127,6 +127,7 @@ header {
     color: white;
     text-align: center;
     background-position: center;
+    min-height: 500px;
 }
 
 
